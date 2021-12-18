@@ -1,0 +1,71 @@
+/*Implement three < div > elements that each use a custom style for positioning:
+
+Navigation (header) 
+expands and contracts horizontally as the page is resized
+includes the intra-site navigation links here
+
+Tableau (main body) 
+expands and contracts vertically and horizontally as the page is resized
+include the live Tableau dashboards here
+
+Footer (at the bottom)
+expands and contracts horizontally as the page is resized
+include copyright, year, and your name, and any other info you want here (e.g., your social profile links)*/
+
+
+
+.nav {
+    font-style: italic;
+    color:black;
+    border: solid 2px blue;
+    position:absolute;
+    padding: 5px;
+}
+
+.tableau {
+    left:5px;
+    top: 250px;
+    bottom: 50px;
+    width: 800px;
+    height:600px;
+}
+
+.footer {
+    font-style: italic;
+    color:black;
+    position:absolute;
+    top: 2800px;
+}
+
+
+.index{
+    top: 75px;
+    left: 150px;
+}
+
+.about{
+    top: 75px;
+    left: 300px;
+}
+
+.resume{
+    top: 75px;
+    left: 450px;
+}
+
+.tab{
+    top: 75px;
+    left: 600px;
+}
+
+.caption {
+    font-style: italic;
+    color:orangered;
+    font-weight:bold;
+}
+
+h1 {
+    font-size:x-large;
+    font-weight:bold;
+    color:blue;
+}
